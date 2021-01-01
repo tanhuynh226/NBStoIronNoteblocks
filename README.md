@@ -4,10 +4,11 @@
 #### Updated to FTB: Revelations 3.4.0
 #### Requires ComputerCraft and Computronics
 
-ComputerCraft command to add this program: pastebin get 4RQVqHRD play
+ComputerCraft command to add this program: 
+"pastebin get 4RQVqHRD play"
 
 Credits
 * James0x57
-* _Davve_ 
+* \_Davve\_ 
 * asie & Vexatos
 * SquidDev
