@@ -1,3 +1,10 @@
+-- Noteblock Studio file (.nbs) player for FTB: Revelations
+-- Original Program by James0x57
+-- Updated by Tan Huynh
+-- Noteblock Studio by _Davve_ - http://www.minecraftforum.net/topic/136749-minecraft-note-block-studio-150000-downloads/
+-- Computronics by asie, maintained by Vexatos - https://wiki.vexatos.com/wiki:computronics
+-- CC: Tweaked by SquidDev - https://tweaked.cc/
+
 local args = {...};
 local menu = {};
 local box = nil;
