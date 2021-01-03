@@ -271,7 +271,7 @@ function mainList(startat, selectedIndex)
 		end
 	end
 	print("----------------------\nUse Arrow keys and Enter to navigate.");
-	print("Press m to access options.")
+	print("Press m to access options or press e to exit.")
 	_, key = os.pullEvent("key");
 
 	if key == 208 or key == 31 then -- down or s
@@ -294,8 +294,10 @@ function mainList(startat, selectedIndex)
 		if startat < 1 then startat = 1; end
 	elseif key == 28 or key == 57 then -- enter or space
 		action = 'playSong';
-	elseif key == 50 or key == 19 then -- m or r
+	elseif key == 50 then -- m for menu
 		action = 'options';
+	elseif key == 18 then -- e to exit
+		os.reboot();
 	end
 
 	return startat, selectedIndex;
