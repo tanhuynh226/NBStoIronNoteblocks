@@ -5,7 +5,7 @@
 #### Requires ComputerCraft and Computronics
 
 ComputerCraft command to add this program: 
-"pastebin get 4RQVqHRD play"
+"pastebin get Pqt1knHi play"
 
 Credits
 * James0x57
